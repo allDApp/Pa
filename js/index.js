@@ -111,18 +111,18 @@ $(function() {
 	});
 
 	$("#create").click(function() {
-		$("#detailTitle").text("记录打脸神句Save")
+		$("#detailTitle").text("记录神句")
 
 		var tempStr = '';
 		tempStr += '<div class="panel-body"> ';
 		tempStr += '<form role="form">';
 		tempStr += '<div class="form-group">';
-		tempStr += '<p>收录历史经典打脸/毒奶语录,记录最新可能打脸的话。</p>';
+		tempStr += '<p>收录历史经典打脸/毒奶事件,记录最新可能打脸的话。</p>';
 		tempStr += '<p>选择类型(打脸/毒奶):</p>';
 		tempStr += '<textarea class="form-control" rows="1" id="name" >打脸</textarea>';
 		tempStr += '<p>内容:</p>';
 		tempStr += '<textarea class="form-control" rows="10" id="content" >真香!</textarea>';
-		tempStr += '<p>作者/名言出处:</p>';
+		tempStr += '<p>作者/事件出处:</p>';
 		tempStr += '<textarea class="form-control" rows="1" id="auth" >王境泽</textarea>';
 		tempStr += '<button type="button" class="btn btn-primary" id="savebutton" onclick="save();">上传</button>';		
 		tempStr += '</div>';
